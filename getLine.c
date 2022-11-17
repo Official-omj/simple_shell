@@ -150,7 +150,7 @@ int _getline(info_t *info, char **ptr, size_t *length)
 	s += k - i;
 	i = k;
 	p = new_p;
-	
+
 	if (length)
 		*length = s;
 	*ptr = p;
